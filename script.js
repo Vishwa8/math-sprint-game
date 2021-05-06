@@ -244,7 +244,7 @@ const showCountDown = () => {
   splashPage.hidden = true;
   countdownStart();
   populateGamePage();
-  setTimeout(displayGamePage, 400);
+  setTimeout(displayGamePage, 4000);
 };
 
 const getRadioValue = () => {
